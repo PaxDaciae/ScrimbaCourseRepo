@@ -1,0 +1,151 @@
+.buttonTest{
+    /* width: 600px;
+    height: 50px; */
+    background-color: brown;
+    /* transition: 1s; */
+    
+}
+
+.testContainer{
+    background-color: aquamarine;
+}
+.restricted {
+    width: 0px;
+    height: 0px;
+    transition: 1s;
+
+}
+.expanded {
+    height: 300px;
+    width: 1000px;
+    transition:  1s;
+}
+
+
+
+*{
+    margin: 0px;
+}
+
+body {
+    font-family: 'Inter';
+    /* margin: 0px; */
+}
+
+/* body > *{
+    margin: 0px;
+} */
+
+.App {
+    /* width: 550px; */
+    width: 100%;
+    height: 704px;
+    /* background-color: red */
+}
+
+.App > * {
+    margin: 0px;
+}
+
+/*                 NAVBAR                 */
+
+.navbar {
+    background-color:orangered;
+    height: 50px;
+    width: 100%;
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color: white;
+}
+.navbar > p{
+    padding-left: 10px;
+}
+
+.spacer--block {
+    height: 50px;
+    background-color: black;
+}
+
+
+/*                 LOCATION -- BLOCK                 */
+
+.locations--block {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*                 LOCATION                 */
+.location--card{
+    width: 471px;
+    height: 168px;
+    display: flex;
+    padding: 18px;
+    gap: 10px;
+}
+
+.location--card i {
+    color: orangered;
+  
+}
+
+.location--photo {
+    height: 168px;
+    width: 126px;
+    object-fit: cover;
+    border-radius: 9px;
+    margin-right: 10px;
+}
+
+.location--card--info{
+    display:flex;
+    flex-direction: column;
+    flex-grow: 5;
+    padding-top: 20px;
+}
+
+.location--holder {
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 3px;
+}
+
+location--holder > * {
+    padding-left:10px;
+    padding-right:10px;
+    color: green;
+}
+
+.location--country{
+    font-size: 12px;
+}
+
+.location--link{
+    margin-left: 5px;
+    font-size: 10px;
+    color: rgb(146, 145, 145);
+}
+
+.location--name {
+    margin-bottom: 4px;
+}
+
+.location--date {
+    align-items: flex-end;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+
+.location--description {
+    font-size: 14px;
+}
